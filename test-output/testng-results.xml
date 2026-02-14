@@ -2,20 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-14T08:32:39 IST" name="Alaska Trips Regression Suite 1402" finished-at="2026-02-14T08:32:51 IST" duration-ms="12320">
+  <suite started-at="2026-02-14T12:51:42 IST" name="Alaska Trips Regression Suite 1402" finished-at="2026-02-14T12:51:53 IST" duration-ms="11023">
     <groups>
     </groups>
-    <test started-at="2026-02-14T08:32:39 IST" name="Winter Tours Test" finished-at="2026-02-14T08:32:51 IST" duration-ms="12320">
+    <test started-at="2026-02-14T12:51:42 IST" name="Winter Tours Test" finished-at="2026-02-14T12:51:53 IST" duration-ms="11023">
       <class name="testcases.WinterToursTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.WinterToursTest@459e9125]" started-at="2026-02-14T08:32:39 IST" name="setUp" finished-at="2026-02-14T08:32:47 IST" duration-ms="7583" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.WinterToursTest@59474f18]" started-at="2026-02-14T12:51:42 IST" name="setUp" finished-at="2026-02-14T12:51:48 IST" duration-ms="5883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="winterToursTest()[pri:0, instance:testcases.WinterToursTest@459e9125]" started-at="2026-02-14T08:32:47 IST" name="winterToursTest" finished-at="2026-02-14T08:32:51 IST" duration-ms="4387" status="PASS">
+        <test-method signature="winterToursTest(java.util.Hashtable)[pri:0, instance:testcases.WinterToursTest@59474f18]" started-at="2026-02-14T12:51:48 IST" name="winterToursTest" data-provider="dp" finished-at="2026-02-14T12:51:52 IST" duration-ms="4237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Khaleefullah Akbar Ali, Message=Hi there, this is Khaleefullah from Chennai, Phone=9791253589, Email=khaleefullah.a@gmail.com}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- winterToursTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.WinterToursTest@459e9125]" started-at="2026-02-14T08:32:51 IST" name="tearDown" finished-at="2026-02-14T08:32:51 IST" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.WinterToursTest@59474f18]" started-at="2026-02-14T12:51:52 IST" name="tearDown" finished-at="2026-02-14T12:51:53 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
