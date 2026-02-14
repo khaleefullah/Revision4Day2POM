@@ -2,6 +2,7 @@ package testcases;
 
 import java.util.Hashtable;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
@@ -21,6 +22,7 @@ public class WinterToursTest extends BaseTest{
 			.enterEmail(data.get("Email"))
 			.enterPhone(data.get("Phone"))
 			.enterMessage(data.get("Message"));
-		Thread.sleep(2000);
+		Thread.sleep(3000);
+		Assert.fail();
 	}
 }
